@@ -1,0 +1,39 @@
+body{
+    margin:0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    height: auto;
+    font-size: 30px;
+    padding: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+div{
+    height: 2000px;
+    background-color:black;
+}
+a{
+    margin-right:10% ;
+    text-decoration:none;
+}
+.menuNoSeleccionado{
+    color:red;
+}
+.menuSeleccionado{
+    color:green;
+}
+#menuSuperior{
+    top:0;
+    left:0;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    font-size: 30px;
+    padding: 12px;
+    font-weight: bold;
+    background-color: aliceblue;
+    text-align: center;
+}
