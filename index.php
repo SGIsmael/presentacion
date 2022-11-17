@@ -6,19 +6,27 @@
     <title>Ismael Sánchez González</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <script src='js/cliente.js'></script>
 </head>
 <body>
     <header>
         <nav>
-            <div id="menuSuperior">
-                <a href="" class="menuSeleccionado">Presentación</a>
-                <a href="" class="menuNoSeleccionado">Tecnologías</a>
-                <a href="" class="menuNoSeleccionado">Blog</a>
-                <a href="" class="menuNoSeleccionado">Contacto</a>
-            </div>
+            <ul>
+                <li><a  class="menuSeleccionado" onclick="dale();">Presentación</a></li>
+                <li><a href="" class="menuNoSeleccionado">Tecnologías</a></li>
+                <li><a href="" class="menuNoSeleccionado">Blog</a></li>
+                <li><a href="" class="menuNoSeleccionado">Contacto</a></li>
+            </ul>
         <nav>
+        <div id="carruselPrincipal">
+                <img name="imagen1" class="mostrar"src="img/winter.jpg" >
+                <img name="imagen2" class="oculto" src="img/spring.jpg" >
+                <img name="imagen3" class="oculto" src="img/summer.jpg" >
+                <img name="imagen4" class="oculto" src="img/fall.jpg" >
+            </div>
+        <div>
+
+        </div>
     </header>
-    <div>a</div>
 </body>
 </html>
