@@ -22,10 +22,11 @@
     <main>
         <div>
             <form name="formularioContacto" action="" method="post">
-                <label for="empresa">Empresa:</label><input type="text" name="nombreEmpresa" ><br/>
-                <label for="correo">Correo:</label><input type="email" name="correoEmpresa" ><br/>
+                <label for="correoEmpresa">Correo:</label><input type="email" name="correoEmpresa" ><br/>
+                <label for="mensajeEmpresa">Mensaje:</label><textarea rows="4" cols="50" name="mensajeEmpresa"></textarea><br/>
                 <button name="buttonForm" onmouseover="dale();">Enviar</button>
             </form>
+            <span id="advertenciaContacto"></span>
         </div>
     </main>
 </body>
