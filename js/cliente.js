@@ -14,5 +14,4 @@ function dale(){
         }
         document.getElementById('advertenciaContacto').textContent='¡Rellena los campos para calmar el botón!';
     }
-    
 }
